@@ -77,6 +77,7 @@ namespace BlackJack
                 case 1:
                     A.Image = Properties.Resources.a;
                     total_pontos += 1;
+
                     break;
                 case 2:
                     A.Image = Properties.Resources._2;
@@ -272,6 +273,11 @@ namespace BlackJack
         }
 
         private void Form_jogo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }

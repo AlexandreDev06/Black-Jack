@@ -77,7 +77,9 @@ namespace BlackJack
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
+#pragma warning disable CS0169 // O campo "form_apresentacao.label1" nunca é usado
         private System.Windows.Forms.Label label1;
+#pragma warning restore CS0169 // O campo "form_apresentacao.label1" nunca é usado
         private System.Windows.Forms.Button btn_Iniciar;
     }
 }

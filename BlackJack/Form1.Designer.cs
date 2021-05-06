@@ -133,7 +133,7 @@ namespace BlackJack
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Image = global::BlackJack.Properties.Resources._0;
             this.pictureBox2.Location = new System.Drawing.Point(443, 83);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(246, 353);
@@ -250,6 +250,8 @@ namespace BlackJack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(709, 541);
@@ -300,7 +302,9 @@ namespace BlackJack
         private System.Windows.Forms.Label label1;
         
         private System.Windows.Forms.Label label_jogador2;
+#pragma warning disable CS0169 // O campo "Form_jogo.Jogador1" nunca é usado
         private System.Windows.Forms.Label Jogador1;
+#pragma warning restore CS0169 // O campo "Form_jogo.Jogador1" nunca é usado
         private System.Windows.Forms.Button btn_cadastro;
         private System.Windows.Forms.TextBox Nick;
         private System.Windows.Forms.Button btn_cadastrar;
