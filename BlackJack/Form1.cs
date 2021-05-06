@@ -75,7 +75,7 @@ namespace BlackJack
             switch (x)
             {
                 case 1:
-                    A.Image = Properties.Resources.A;
+                    A.Image = Properties.Resources.a;
                     total_pontos += 1;
                     break;
                 case 2:

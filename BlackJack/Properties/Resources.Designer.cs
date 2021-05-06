@@ -173,9 +173,9 @@ namespace BlackJack.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap A {
+        internal static System.Drawing.Bitmap a {
             get {
-                object obj = ResourceManager.GetObject("A", resourceCulture);
+                object obj = ResourceManager.GetObject("a", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
